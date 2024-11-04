@@ -2,3 +2,36 @@
     font-weight: bold;
 }
 
+.navigation-bar {
+    nav {
+        background-color: #ba2100;
+        padding: 1em;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.menu {
+    p {
+        text-indent: 4em;
+    }
+
+    h4 {
+        text-indent: 2em;
+    }
+}
