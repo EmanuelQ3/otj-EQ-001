@@ -27,6 +27,10 @@
 }
 
 .menu {
+    h2 {
+        text-align: center;
+        text-size-adjust: 800px;
+    }
     p {
         text-indent: 4em;
     }
@@ -34,4 +38,9 @@
     h4 {
         text-indent: 2em;
     }
+}
+
+h2 {
+    background-color: #ba22008a;
+    padding: 1em;
 }
