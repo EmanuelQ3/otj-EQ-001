@@ -1,5 +1,14 @@
-.day-label {
-    font-weight: bold;
+body {
+    width: 100%;
+}
+
+h2 {
+    background-color: #ba22008a;
+    padding: 1em;
+}
+
+p {
+    margin: 1em 1.5em;
 }
 
 .navigation-bar {
@@ -40,7 +49,14 @@
     }
 }
 
-h2 {
-    background-color: #ba22008a;
-    padding: 1em;
+.socials-container { 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /*spacing between icons*/
+    margin-top: 2em;
+}
+
+.day-label {
+    font-weight: bold;
 }
