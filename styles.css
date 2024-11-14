@@ -53,10 +53,24 @@ p {
     display: flex; 
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 20px; /*spacing between icons*/
     margin-top: 2em;
 }
 
 .day-label {
     font-weight: bold;
+}
+
+.copyright-message {
+    justify-content: center;
+}
+
+.devfaves { 
+    display: flex; 
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    gap: 20px; /*spacing between icons*/
+    margin: 2em 1.5em;
 }
